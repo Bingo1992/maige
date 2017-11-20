@@ -1,0 +1,256 @@
+<!DOCTYPE HTML>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Tencent-TGideas">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <title>人保麦格购车节</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style type="text/css">
+    .p-music{
+        position: absolute;
+        top: 1rem;
+        right: 0;
+        z-index: 10;
+        color: #fff;
+    }
+    </style>
+    <script src="js/zepto.min.js"></script>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/slide.v2.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.event.drag-1.5.min.js"></script>
+    <script type="text/javascript" src="js/jquery.touchSlider.js"></script>
+    <script type="text/javascript">
+    //******************控制不同设备字体大小**************//
+    (function(doc, win) {
+        var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function() {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                docEl.style.fontSize = 20 * (clientWidth / 320) + 'px';
+            };
+
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+    //******************控制不同设备字体大小******结束**************//
+    </script>
+</head>
+
+<body>
+    <div class="slide">
+        <div class="content">
+            <!-- 第一屏 -->
+            <article>
+                <section class="top-banner">
+                    <img class="picc" src="images/picc1.png">
+                    <img class="tuanche" src="images/tuanche.png">
+                    <img class="maige" src="images/maige.png">
+                    <img class="date-address" src="images/date_address.png">
+                    <img class="title" src="images/title.png">
+                </section>
+                <img class="juanzhou" src="images/juanzhou.png" alt="">
+                <div class="outter">
+                    <div class="inner">
+                        <img class="calendar" src="images/calendar.png">
+                    </div>
+                </div>
+                <div class="btn">
+                    <a href="#"><img src="images/btn1.png"></a>
+                </div>
+
+                 <div class="triangle">
+                    <img src="images/up.png">
+                </div>
+            </article>
+            <!-- 第一屏结束 -->
+            <!-- 第二屏 -->
+            <article>
+                <div class="header-2">
+                    <img class="title-2" src="images/title2.png">
+                    <img class="title2-2" src="images/title2-2.png">
+                </div>
+                <div class="banner-pic">
+                    <img class="left-btn link" id="toLeft" src="images/left.png">
+                    <img class="right-btn link" id="toRight" src="images/right.png">
+                    <img class="frame" src="images/frame.png">
+                    <div class="outter-pic">
+                        <ul class="inner-pic">
+                            <li>
+                                <a href="#" ><img src="images/car_bmw525.png" alt="宝马5系"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="images/audi_a4l.png" alt="奥迪A4L"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="images/bieke.png" alt="别克新英朗"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="images/bingzhi.png" alt="广本缤智"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="images/hanlanda.png" alt="广丰新汉兰达"></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="text-border">
+                        <p class="p-1">宝马5系</p>
+                        <p class="p-2">当天最低价成交，买贵差额3倍赔偿</p>
+                    </div>
+                </div>
+                <div class="logo-marquee">
+                    <img class="left-btn" src="images/left-2.png">
+                    <img class="right-btn" src="images/right-2.png">
+                    <div class="logo-outter" id="demo">
+                        <table class="table1">
+                            <tbody>
+                                <tr>
+                                    <td class="td1" id="marquePic1">
+                                        <table class="logo-inner">
+                                            <tr>
+                                                <td><img src="images/logo_1.png"></td>
+                                                <td><img src="images/logo_2.png"></td>
+                                                <td><img src="images/logo_3.png"></td>
+                                                <td><img src="images/logo_4.png"></td>
+                                                <td><img src="images/logo_5.png"></td>
+                                                <td><img src="images/logo_6.png"></td>
+                                                <td><img src="images/logo_7.png"></td>
+                                                <td><img src="images/logo_8.png"></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td class="td1" id="marquePic2"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="triangle">
+                    <img src="images/up.png">
+                </div>
+            </article>
+            <!-- 第二屏结束 -->
+            <!-- 第三屏 -->
+            <article>
+                <img class="title-3" src="images/title3.png">
+                <div class="pic">
+                    <img class="pic2" src="images/pic1.png">
+                    <img class="pic1" src="images/pic2.png">
+                    <img class="pic3" src="images/pic3.png">
+                </div>
+
+                 <div class="triangle">
+                    <img src="images/up.png">
+                </div>
+            </article>
+            <!-- 第三屏结束 -->
+            <article>
+                <img class="title4" src="images/title4.png">
+                <div class="erweima">
+                	<img src="images/erweima.png">
+                </div>
+                <img class="adress" src="images/address.png">
+                <div class="map">
+                    <img src="images/map.png">
+                </div>
+
+                 <div class="triangle">
+                    <img src="images/up.png">
+                </div>
+            </article>
+        </div>
+    </div>
+    <button class="p-music" onclick="playPause()">播放/暂停</button>
+    <audio id="audio1" width="420" loop>
+        <source src="iphone.mp3" type="audio/mp3" />
+    </audio>
+    <script>
+    Zepto(function($) {
+        window.pageSlide = new mo.Slide({
+            target: $('.slide article'),
+            circle: true,
+            lazy: true,
+            effect: 'flip',
+            playTo: 0
+        });
+    });
+
+    // logo无缝滚动
+    var speed = 30;
+    marquePic2.innerHTML = marquePic1.innerHTML;
+
+    function Marquee() {
+        if (demo.scrollLeft >= marquePic1.scrollWidth) {
+            demo.scrollLeft = 0;
+        } else {
+            demo.scrollLeft++;
+        }
+    }
+    var MyMar = setInterval(Marquee, speed);
+
+    //图片轮播
+    $(document).ready(function() {
+        $dragBln = false;
+        $(".outter-pic").touchSlider({
+            flexible: true,
+            speed: 300,
+            btn_prev: $(".left-btn"),
+            btn_next: $(".right-btn"),
+            // paging : $(".flicking_con a"),
+            counter: function(e) {
+                // $(".flicking_con a").removeClass("on").eq(e.current-1).addClass("on");
+                var text = $(".inner-pic").find('li').eq(e.current - 1).find('img').attr('alt');
+                // var link = $(".inner-pic").find('li').eq(e.current - 1).find('a').attr('title');
+                $('.text-border .p-1').html(text);
+                // $('.text-border .p-2').html(link);
+
+            }
+        });
+
+        // $(".inner-pic").bind("mousedown", function() {
+        //     $dragBln = false;
+        // });
+
+        // $(".inner-pic").bind("dragstart", function() {
+        //     $dragBln = true;
+        // });
+
+        // $(".inner-pic .link").click(function() {
+        //     if ($dragBln) {
+        //         return false;
+        //     }
+        // });
+
+        timer = setInterval(function() {
+            $(".right-btn").click();
+        }, 2000);
+
+        $(".banner-pic").bind("touchstart", function() {
+            clearInterval(timer);
+        }).bind("touchend", function() {
+            timer = setInterval(function() {
+                $(".right-btn").click();
+            }, 2000);
+        });
+
+       
+    });
+
+        var myAudio = document.getElementById('audio1');
+        function playPause(){
+            if(myAudio.paused){
+                myAudio.play();
+            }else{
+                myAudio.pause();
+            }
+        }
+    </script>
+</body>
+
+</html>
